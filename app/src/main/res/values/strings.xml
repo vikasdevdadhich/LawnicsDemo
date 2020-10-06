@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lawnics Demo</string>
+    <array name="genre">
+        <item>Rock</item>
+        <item>Lofi</item>
+        <item>Sufi</item>
+        <item>Jazz</item>
+        <item>Hip Hop</item>
+    </array>
+</resources>
