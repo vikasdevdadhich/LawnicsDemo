@@ -8,6 +8,14 @@
         android:title="Save As Pdf"
         app:showAsAction="always">
     </item>
+    <item
+        android:id="@+id/view"
+        android:icon="@drawable/ic_open_in_new_black_24dp"
+        android:iconTint="@color/cardview_light_background"
+        android:title="Save As Pdf"
+        app:showAsAction="always">
+    </item>
+
     <group>
         <item android:id="@+id/signout"
             android:title="Sign Out"

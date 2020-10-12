@@ -70,7 +70,7 @@ ProgressBar progressBar;
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if(task.isSuccessful())
                                 {   progressBar.setVisibility(View.GONE);
-                                    Intent intent=new Intent(getApplicationContext(),MainActivity.class);
+                                    Intent intent=new Intent(getApplicationContext(),HomeActivity.class);
                                     startActivity(intent);
                                     finish();
                                  }
